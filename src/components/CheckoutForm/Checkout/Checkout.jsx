@@ -58,7 +58,7 @@ const Checkout = ({cart,handleCaptureCheckout,order,error}) => {
     ): isFinished ? (
         <>
         <div>
-          <Typography variant="h5">Thank you for your purchase! You can contact with us : +3809360277700</Typography>
+          <Typography variant="h5">Thank you for your purchase! <br/>You can contact with us : +3809360277700</Typography>
           <Divider className={classes.divider}/>
           
           </div>
